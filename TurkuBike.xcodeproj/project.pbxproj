@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0B9184D2506427000D11C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9184C2506427000D11C12 /* AppDelegate.swift */; };
+		D0B9184F2506427000D11C12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9184E2506427000D11C12 /* SceneDelegate.swift */; };
+		D0B918512506427000D11C12 /* RackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B918502506427000D11C12 /* RackTableViewController.swift */; };
+		D0B918562506427400D11C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B918552506427400D11C12 /* Assets.xcassets */; };
+		D0B918592506427400D11C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B918572506427400D11C12 /* LaunchScreen.storyboard */; };
+		D0B9186425064A8500D11C12 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B9186625064A8500D11C12 /* Localizable.strings */; };
+		D0B9186A2506511900D11C12 /* Rack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B918692506511900D11C12 /* Rack.swift */; };
+		D0B9186D250653D600D11C12 /* RackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9186C250653D600D11C12 /* RackTableViewCell.swift */; };
+		D0B91870250678D700D11C12 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9186F250678D700D11C12 /* UIView+constraints.swift */; };
+		D0B9187225067CCC00D11C12 /* RemoteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9187125067CCC00D11C12 /* RemoteResponse.swift */; };
+		D0B9187425067EE100D11C12 /* citybike.json in Resources */ = {isa = PBXBuildFile; fileRef = D0B9187325067EE100D11C12 /* citybike.json */; };
+		D0B91876250687C700D11C12 /* BikeRackRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B91875250687C700D11C12 /* BikeRackRequest.swift */; };
+		D0B9187925068F3100D11C12 /* LocationSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9187825068F3100D11C12 /* LocationSource.swift */; };
+		D0B9187C2506901B00D11C12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0B9187E2506901B00D11C12 /* InfoPlist.strings */; };
+		D0B918812506944600D11C12 /* CLLocationCoordinate2D+distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B918802506944600D11C12 /* CLLocationCoordinate2D+distance.swift */; };
+		D0B918862507B22800D11C12 /* ErrorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B918852507B22800D11C12 /* ErrorTableViewCell.swift */; };
+		D0B918882507D08C00D11C12 /* RackDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B918872507D08C00D11C12 /* RackDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0B918492506427000D11C12 /* TurkuBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurkuBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B9184C2506427000D11C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0B9184E2506427000D11C12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0B918502506427000D11C12 /* RackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RackTableViewController.swift; sourceTree = "<group>"; };
+		D0B918552506427400D11C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B918582506427400D11C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B9185A2506427400D11C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B9186525064A8500D11C12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0B9186725064A8C00D11C12 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0B918692506511900D11C12 /* Rack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rack.swift; sourceTree = "<group>"; };
+		D0B9186C250653D600D11C12 /* RackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RackTableViewCell.swift; sourceTree = "<group>"; };
+		D0B9186F250678D700D11C12 /* UIView+constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+constraints.swift"; sourceTree = "<group>"; };
+		D0B9187125067CCC00D11C12 /* RemoteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteResponse.swift; sourceTree = "<group>"; };
+		D0B9187325067EE100D11C12 /* citybike.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = citybike.json; sourceTree = "<group>"; };
+		D0B91875250687C700D11C12 /* BikeRackRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeRackRequest.swift; sourceTree = "<group>"; };
+		D0B9187825068F3100D11C12 /* LocationSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSource.swift; sourceTree = "<group>"; };
+		D0B9187F2506901C00D11C12 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0B918802506944600D11C12 /* CLLocationCoordinate2D+distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+distance.swift"; sourceTree = "<group>"; };
+		D0B918852507B22800D11C12 /* ErrorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTableViewCell.swift; sourceTree = "<group>"; };
+		D0B918872507D08C00D11C12 /* RackDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RackDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B918462506427000D11C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B918402506427000D11C12 = {
+			isa = PBXGroup;
+			children = (
+				D0B9184B2506427000D11C12 /* TurkuBike */,
+				D0B9184A2506427000D11C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B9184A2506427000D11C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B918492506427000D11C12 /* TurkuBike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B9184B2506427000D11C12 /* TurkuBike */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9187725068F2500D11C12 /* Helpers */,
+				D0B918682506509900D11C12 /* Model */,
+				D0B9186B250653AA00D11C12 /* Table cells */,
+				D0B9186E250678AD00D11C12 /* View helpers */,
+				D0B91860250645CE00D11C12 /* View controllers */,
+				D0B9184C2506427000D11C12 /* AppDelegate.swift */,
+				D0B9184E2506427000D11C12 /* SceneDelegate.swift */,
+				D0B918552506427400D11C12 /* Assets.xcassets */,
+				D0B918572506427400D11C12 /* LaunchScreen.storyboard */,
+				D0B9185A2506427400D11C12 /* Info.plist */,
+				D0B9186625064A8500D11C12 /* Localizable.strings */,
+				D0B9187325067EE100D11C12 /* citybike.json */,
+				D0B9187E2506901B00D11C12 /* InfoPlist.strings */,
+			);
+			path = TurkuBike;
+			sourceTree = "<group>";
+		};
+		D0B91860250645CE00D11C12 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0B918502506427000D11C12 /* RackTableViewController.swift */,
+				D0B918872507D08C00D11C12 /* RackDetailViewController.swift */,
+			);
+			path = "View controllers";
+			sourceTree = "<group>";
+		};
+		D0B918682506509900D11C12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0B918692506511900D11C12 /* Rack.swift */,
+				D0B9187125067CCC00D11C12 /* RemoteResponse.swift */,
+				D0B91875250687C700D11C12 /* BikeRackRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0B9186B250653AA00D11C12 /* Table cells */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9186C250653D600D11C12 /* RackTableViewCell.swift */,
+				D0B918852507B22800D11C12 /* ErrorTableViewCell.swift */,
+			);
+			path = "Table cells";
+			sourceTree = "<group>";
+		};
+		D0B9186E250678AD00D11C12 /* View helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9186F250678D700D11C12 /* UIView+constraints.swift */,
+			);
+			path = "View helpers";
+			sourceTree = "<group>";
+		};
+		D0B9187725068F2500D11C12 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9187825068F3100D11C12 /* LocationSource.swift */,
+				D0B918802506944600D11C12 /* CLLocationCoordinate2D+distance.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B918482506427000D11C12 /* TurkuBike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B9185D2506427400D11C12 /* Build configuration list for PBXNativeTarget "TurkuBike" */;
+			buildPhases = (
+				D0B918452506427000D11C12 /* Sources */,
+				D0B918462506427000D11C12 /* Frameworks */,
+				D0B918472506427000D11C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurkuBike;
+			productName = TurkuBike;
+			productReference = D0B918492506427000D11C12 /* TurkuBike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B918412506427000D11C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Tero Parvinen";
+				TargetAttributes = {
+					D0B918482506427000D11C12 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = D0B918442506427000D11C12 /* Build configuration list for PBXProject "TurkuBike" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fi,
+			);
+			mainGroup = D0B918402506427000D11C12;
+			productRefGroup = D0B9184A2506427000D11C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B918482506427000D11C12 /* TurkuBike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B918472506427000D11C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B918592506427400D11C12 /* LaunchScreen.storyboard in Resources */,
+				D0B9187425067EE100D11C12 /* citybike.json in Resources */,
+				D0B9186425064A8500D11C12 /* Localizable.strings in Resources */,
+				D0B918562506427400D11C12 /* Assets.xcassets in Resources */,
+				D0B9187C2506901B00D11C12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B918452506427000D11C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B918882507D08C00D11C12 /* RackDetailViewController.swift in Sources */,
+				D0B918812506944600D11C12 /* CLLocationCoordinate2D+distance.swift in Sources */,
+				D0B918512506427000D11C12 /* RackTableViewController.swift in Sources */,
+				D0B91870250678D700D11C12 /* UIView+constraints.swift in Sources */,
+				D0B9186D250653D600D11C12 /* RackTableViewCell.swift in Sources */,
+				D0B9187925068F3100D11C12 /* LocationSource.swift in Sources */,
+				D0B9184D2506427000D11C12 /* AppDelegate.swift in Sources */,
+				D0B9186A2506511900D11C12 /* Rack.swift in Sources */,
+				D0B91876250687C700D11C12 /* BikeRackRequest.swift in Sources */,
+				D0B9184F2506427000D11C12 /* SceneDelegate.swift in Sources */,
+				D0B918862507B22800D11C12 /* ErrorTableViewCell.swift in Sources */,
+				D0B9187225067CCC00D11C12 /* RemoteResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0B918572506427400D11C12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B918582506427400D11C12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B9186625064A8500D11C12 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B9186525064A8500D11C12 /* en */,
+				D0B9186725064A8C00D11C12 /* fi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D0B9187E2506901B00D11C12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B9187F2506901C00D11C12 /* fi */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B9185B2506427400D11C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0B9185C2506427400D11C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B9185E2506427400D11C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EUMTE3ZS2;
+				INFOPLIST_FILE = TurkuBike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = terop.TurkuBike;
+				PRODUCT_NAME = TurkuBike;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B9185F2506427400D11C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EUMTE3ZS2;
+				INFOPLIST_FILE = TurkuBike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = terop.TurkuBike;
+				PRODUCT_NAME = TurkuBike;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B918442506427000D11C12 /* Build configuration list for PBXProject "TurkuBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B9185B2506427400D11C12 /* Debug */,
+				D0B9185C2506427400D11C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B9185D2506427400D11C12 /* Build configuration list for PBXNativeTarget "TurkuBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B9185E2506427400D11C12 /* Debug */,
+				D0B9185F2506427400D11C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B918412506427000D11C12 /* Project object */;
+}

@@ -1,0 +1,29 @@
+/* List page navigation item title */
+"Bike Racks" = "Bike Racks";
+
+/* List page */
+"Pull to refresh" = "Pull to refresh";
+
+/* List page */
+"Updating data" = "Updating data";
+
+/* Detail view */
+"Classic Bikes" = "Classic Bikes";
+
+/* Detail view */
+"Electric Bikes" = "Electric Bikes";
+
+/* Detail view */
+"Capacity (formatted)" = "Total capacity %u bikes";
+
+/* Error message */
+"Could not retrieve data" = "Could not retrieve data";
+
+/* Error message */
+"Received invalid data" = "Received invalid data";
+
+/* Error message */
+"Internal configuration error" = "Internal configuration error";
+
+/* Error cell */
+"Retry" = "Retry";

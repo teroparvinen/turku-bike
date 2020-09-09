@@ -1,0 +1,29 @@
+/* List page navigation item title */
+"Bike Racks" = "Pyöräparkit";
+
+/* List page */
+"Pull to refresh" = "Päivitä vetämällä";
+
+/* List page */
+"Updating data" = "Päivitetään tietoja";
+
+/* Detail view */
+"Classic Bikes" = "Tavallisia pyöriä";
+
+/* Detail view */
+"Electric Bikes" = "Sähköpyöriä";
+
+/* Detail view */
+"Capacity (formatted)" = "Paikkoja yhteensä %u pyörälle";
+
+/* Error message */
+"Could not retrieve data" = "Tietoja ei voitu hakea";
+
+/* Error message */
+"Received invalid data" = "Vastaanotettu tieto on virheellistä";
+
+/* Error message */
+"Internal configuration error" = "Sisäinen määrittelyvirhe";
+
+/* Error cell */
+"Retry" = "Yritä uudelleen";
